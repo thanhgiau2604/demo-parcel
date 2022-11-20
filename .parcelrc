@@ -3,7 +3,6 @@
     "@parcel/config-default"
   ],
   "namers": [
-    "parcel-namer-rewrite",
-    "parcel-namer-without-hash"
+    "parcel-namer-rewrite"
   ]
 }
