@@ -1,0 +1,15 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "compile": "parcel build \"src/pages/**/*.html\"",
+    "dev": "parcel \"src/pages/**/*.html\" --no-cache"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.8.0",
+    "parcel": "^2.8.0",
+    "parcel-namer-without-hash": "^0.0.1",
+    "prettier": "^2.7.1"
+  }
+}
